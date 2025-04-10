@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="button" parent="@android:style/Widget.Button">
+        <item name="backgroundTint" android:state_enabled="false" android:BackgroundTint="@color/DarkGray" />
+        <item name="colorPrimary" android:state_enabled = "true" android:BackgroundTint="@color/FireBrick"/>
+    </style>
+    <style name="FireBrick_Theme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:horizontalDivider">@color/FireBrick</item>
+        <item name="android:textColor">@color/FireBrick</item>
+        <item name="dividerColor">@color/FireBrick</item>  <!-- don't know this won't change the divider color in my time picker-->
+    </style>
+
+</resources>

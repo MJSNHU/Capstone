@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Matt Jackson Project Three</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="register">Register a New Account</string>
+    <string name="register_short">Register</string>
+    <string name="verify_password">verify password</string>
+    <string name="details">Details</string>
+    <string name="events">Events</string>
+    <string name="event">Event</string>
+    <string name="time">Time</string>
+    <string name="time_format">hh:mm</string>
+    <string name="enable_message">This app can send SMS messages when an event is due. If you would like to enable this feature, enter your phone number below and click \'Enable\'</string>
+    <string name="enable">Enable</string>
+    <string name="verify">Verify</string>
+    <string name="date">Date</string>
+    <string name="date_format">mm/dd/yyyy</string>
+
+</resources>
