@@ -1,8 +1,11 @@
 package com.cs_499.capstone
 
 
+
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -15,9 +18,13 @@ import kotlin.coroutines.CoroutineContext
 
 class MainActivity : AppCompatActivity() {
     lateinit var db: DBHelper.EventDatabase
-    lateinit var dao: DBHelper.EventDao
+    lateinit var eDao: DBHelper.AllEventDao
+    lateinit var uDao: DBHelper.UserDao
+    lateinit var uEDao: DBHelper.UserEventDao
     private val coroutineContext: CoroutineContext = newSingleThreadContext("loadDB")
     private val scope = CoroutineScope(coroutineContext)
+    private val TAG = "MainActivity"
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,23 +36,26 @@ class MainActivity : AppCompatActivity() {
             insets
 
         }
+
+        // Check for events table; create if they don't exist
         val events = getEventsFromCSV(applicationContext)
+        Log.d(TAG, events.size.toString())
         db = DBHelper.EventDatabase.getDatabaseInstance(this)
-        dao = db.eventDao()
-
+        eDao = db.allEventDao()
+        uDao = db.userDao()
+        uEDao = db.userEventDao()
         scope.launch() {
-            if (dao.hasEventTable() == false) {
-                dao.insertAll(events)
+            Log.d(TAG, eDao.hasEventTable().toString())
+            if (eDao.hasEventTable() == false) {
+                eDao.insertAll(events)
             }
         }
-
-      /*  scope.launch() {
-            val e: List<DBHelper.Event> = dao.getAllEvents()
-            for (event: DBHelper.Event in e) {
-                Log.d("MainActivity", event.discipline.toString())
-            }
-        }
-      */
-
     }
+
+    // change intent upon clicking sign-in button
+    fun signIn(view: View) {
+        val intent = Intent(this, SignIn::class.java)
+        startActivity(intent)
+    }
+
 }
