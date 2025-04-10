@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Mark Favorite", must appear as action button if possible. -->
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/menu"
+        android:title="@string/menu"
+        app:showAsAction="ifRoom">
+        <menu>
+
+            <item
+                android:id="@+id/action_search"
+                android:icon="@drawable/search"
+                android:title="Search" />
+            <item
+                android:id="@+id/action_toggle_list"
+                android:icon="@drawable/menu"
+                android:title="My Events"/>
+
+            <item
+                android:id="@+id/action_logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+
+    </item>
+    <!-- Settings, must always be in the overflow. -->
+    <!--<item android:id="@+id/settings"
+        android:title="@string/settings"
+        app:showAsAction="never"/> -->
+
+</menu>
