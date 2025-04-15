@@ -18,9 +18,9 @@ This capstone course had five outcomes to demonstrate:
 # Initial Artifact
 The original artifact used for all three enhancements is from my final project in a course I took at Southern New Hampshire University in October2024: CS-360, Mobile Architecture and Programming. In this project, I developed an Android mobile application in Java that allowed the user to create and save events into a database, review and edit them.  I selected this artifact because I wanted to improve my mobile application programming skills.
 
-[Enhancement 1 Narrative]
+[Enhancement 1 Narrative](https://github.com/MJSNHU/Capstone/blob/main/Enhancement%201.md)
 
-[Enhancement 2 Narrative]
+[Enhancement 2 Narrative](https://github.com/MJSNHU/Capstone/blob/main/Enhancement%202.md)
 
-[Enhancement 3 Narrative]
+[Enhancement 3 Narrative](https://github.com/MJSNHU/Capstone/blob/main/Enhancement%203.md)
 
