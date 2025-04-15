@@ -1,0 +1,9 @@
+# Enhancement 3
+
+In this enhancement, databases, I built on the functionality of the original database by allowing new query types with user input.  Because enhancement one entailed translating the application from Java to Kotlin, I had to switch from using Java’s SQLite libraries to Kotlin’s Room DB. 
+
+To focus on the functional improvements of the database in this enhancement, I pre-populated the events with a large amount of existing data by importing a CSV file into the database.  I also implemented a salted hashing algorithm to safely store password hashes in the database and to securely verify them, and used the Room API to ensure user input was parameterized to prevent SQL injection. The search functionality was implemented by using a default ‘*’symbol if the user didn’t enter a search term in order to reduce redundant code, and the LIKE condition in the query to locate matching events for partial queries (for example “polo” would match both women’s polo and men’s polo).  Likewise, by defaulting to the earliest and latest dates, the searches would return all events that matched the search term without requiring the user to enter the dates themself.
+
+By parameterizing user input and using secure hashes to store and verify passwords, I demonstrated the outcome of developing a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.
+
+It was a little challenging to understand the coroutines used to make non-blocking database queries at first, particularly the context in which they functioned compared to the overall context of the activity and how to pass information from one context to another.  I solved this by accessing the UI thread from inside the co-routine scope.
