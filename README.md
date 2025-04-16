@@ -14,6 +14,21 @@ This capstone course had five outcomes to demonstrate:
 
 # Self Assessment
 
+Matt Jackson
+Self-Assessment
+CS-499
+SNHU
+Moore
+
+Over the course of my computer science program at Southern New Hampshire university, I learned how to write in several languages and I used both classic and cutting-edge tools and technologies crucial to a career in the field.  I have used software development environments for Python, writing a text-based adventure game; C, including reverse engineering, hardware development and classic algorithms; implemented secure coding practices in C++ and developed a secure coding standard for a mock employer; explored design patterns like singletons for Java objects and databases; used command line tools to access SQL and Mongo databases and developed APIs for Java, Kotlin and Node.js, developed a website development using the full MERN stack and more.  This shows that I can use well-founded and innovative techniques skills and tools to implement solutions that accomplish industry specific goals.  Many of these projects are hosted in repositories under my github username: MJSNHU.  
+
+Several courses required me to write documentation of projects geared toward decision makers, clients and end users.  In Systems Analysis and Design, I created business requirements documentation, activity diagrams, class diagrams and sequence diagrams for a web-based application that provided drivers education.  In Secure C Coding I developed a security policy template that outlined ten secure coding standards and provided examples of implementations.  In addition to written documents, I developed power point slides to communicate with stakeholders. In my User Interface/User Experience course, I conducted interviews and focus groups to inform application design, and for Operating Systems I documented software design for an application to be ported to additional OSs.  These accomplishments demonstrated my ability to build collaborative environments and support decision making in the field of computer science, and to develop professional-quality oral written and visual communications adapted to specific audiences and contexts.
+
+In Data Structures and Algorithms, I developed pseudocode and implemented different data structures like linked-lists, hash tables and binary search trees to study tradeoffs between time complexity and storage requirements using Big-O notation.  The capstone project also involved manipulating data structures.  I took a basic binary search tree and implemented a switch variable to allow building the tree in order based on separate data types.  This shows I am able to solve problems using algorithmic principles while managing tradeoffs.  
+
+My work in Secure C Programming as well as the enhancements in this final capstone project show I have developed a security mindset when it comes to programming.  As described in enhancement three, I implemented functionality that introduced the potential for SQL injection by allowing the user to enter search terms.  To counter this I ensured user input was parameterized, so it was not used in raw queries.  Additionally, I added a secure salted-hashing algorithm to store and verify user passwords.  
+
+Together, the enhanced artifacts of this capstone project represent the current culmination of my abilities.  For enhancement one, software design/engineering, I translated the code into the Kotlin programming language and added a search functionality.  In enhancement two, I implemented a binary search tree with a switch that allows the tree to be built in order of date or event name.  Enhancement three builds on the functionality of the original database by allowing new query types with user input, and securely storing password information in the database.  
 
 # Initial Artifact
 The original artifact used for all three enhancements is from my final project in a course I took at Southern New Hampshire University in October2024: CS-360, Mobile Architecture and Programming. In this project, I developed an Android mobile application in Java that allowed the user to create and save events into a database, review and edit them.  I selected this artifact because I wanted to improve my mobile application programming skills.
