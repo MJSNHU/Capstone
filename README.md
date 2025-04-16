@@ -14,12 +14,6 @@ This capstone course had five outcomes to demonstrate:
 
 # Self Assessment
 
-Matt Jackson
-Self-Assessment
-CS-499
-SNHU
-Moore
-
 Over the course of my computer science program at Southern New Hampshire university, I learned how to write in several languages and I used both classic and cutting-edge tools and technologies crucial to a career in the field.  I have used software development environments for Python, writing a text-based adventure game; C, including reverse engineering, hardware development and classic algorithms; implemented secure coding practices in C++ and developed a secure coding standard for a mock employer; explored design patterns like singletons for Java objects and databases; used command line tools to access SQL and Mongo databases and developed APIs for Java, Kotlin and Node.js, developed a website development using the full MERN stack and more.  This shows that I can use well-founded and innovative techniques skills and tools to implement solutions that accomplish industry specific goals.  Many of these projects are hosted in repositories under my github username: MJSNHU.  
 
 Several courses required me to write documentation of projects geared toward decision makers, clients and end users.  In Systems Analysis and Design, I created business requirements documentation, activity diagrams, class diagrams and sequence diagrams for a web-based application that provided drivers education.  In Secure C Coding I developed a security policy template that outlined ten secure coding standards and provided examples of implementations.  In addition to written documents, I developed power point slides to communicate with stakeholders. In my User Interface/User Experience course, I conducted interviews and focus groups to inform application design, and for Operating Systems I documented software design for an application to be ported to additional OSs.  These accomplishments demonstrated my ability to build collaborative environments and support decision making in the field of computer science, and to develop professional-quality oral written and visual communications adapted to specific audiences and contexts.
